@@ -5,6 +5,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+section {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+}
+
 body {
   --background-color:rgb(221, 216, 255);
   --text-color:rgb(30, 30, 30);
@@ -175,11 +181,27 @@ a {
     display: flex;
     flex-direction: column;
   }
-  .con1 img {
+  .details .con1 img {
     width: auto;
     height: 15rem;
   }
-  .con2 {
-    width: 78rem;
+  .details .con2 {
+    width: 80%;
   }
+  .details .con2 p:nth-child(1) {
+    width: 150%;
+  }
+  .details .con2 p:nth-child(2) {
+    width: 190%;
+  }
+}
+.links {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 2rem;
+}
+.links .box {
+  margin-bottom: 1rem;
+  width: 8rem;
 }/*# sourceMappingURL=style.css.map */
