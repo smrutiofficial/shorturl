@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  --background-color:rgb(221, 216, 255);
+  --text-color:rgb(30, 30, 30);
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+body.dark {
+  --background-color:rgb(0, 0, 0);
+  --text-color:rgb(255, 255, 255);
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+  color: var(--text-color);
+  align-content: center;
+  justify-content: center;
+  margin: 1rem;
+}
+.details .con1 {
+  display: relative;
+  overflow: hidden;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.details .con1 img {
+  width: auto;
+  height: 20rem;
+}
+.details .con2 {
+  width: 50%;
+}
+.details .con2 p:nth-child(1) {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0rem;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.header ul {
+  background: rgb(36, 36, 36);
+  border-radius: 0.5rem;
+  padding: 0.6rem 0rem;
+  width: 8rem;
+  text-align: center;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+.links .box {
+  position: relative;
+  background: rgb(117, 46, 250);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0rem 1.2rem;
+  text-align: center;
+  color: aliceblue;
+  height: 5rem;
+  width: 15rem;
+  overflow: hidden;
+}
+.links .box .uil {
+  font-size: 1.8rem;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.box:nth-child(1) {
+  background: rgb(33, 33, 33);
+}
+
+.box:nth-child(2) {
+  background: rgb(255, 132, 0);
+}
+
+.box:nth-child(3) {
+  background: rgb(0, 128, 255);
+}
+
+.box:nth-child(4) {
+  background: rgb(0, 72, 255);
+}
+
+.box:nth-child(5) {
+  background: rgb(215, 79, 79);
+}
+
+.box:nth-child(6) {
+  background: rgb(14, 168, 22);
+}
+
+.header ul a {
+  color: azure;
+}
+
+#btn {
+  border: none;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background: rgb(15, 6, 97);
+  border-radius: 0.5rem;
+  color: aliceblue;
+  padding: 1rem 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#sq {
+  position: absolute;
+  z-index: 3;
+  border: solid 5px rgb(255, 255, 255);
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+#sq:nth-child(5) {
+  bottom: 0rem;
+  right: 0rem;
+  border-left: 1rem;
+  border-top: 0rem;
+}
+
+#sq:nth-child(6) {
+  bottom: 0rem;
+  left: 0rem;
+  border-right: 1rem;
+  border-top: 0rem;
+}
+
+#sq:nth-child(3) {
+  top: 0rem;
+  right: 0rem;
+  border-left: 1rem;
+  border-bottom: 0rem;
+}
+
+#sq:nth-child(4) {
+  top: 0rem;
+  left: 0rem;
+  border-right: 1rem;
+  border-bottom: 0rem;
+}/*# sourceMappingURL=style.css.map */
