@@ -168,4 +168,18 @@ a {
   left: 0rem;
   border-right: 1rem;
   border-bottom: 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+  .con1 img {
+    width: auto;
+    height: 15rem;
+  }
+  .con2 {
+    width: 78rem;
+  }
 }/*# sourceMappingURL=style.css.map */
