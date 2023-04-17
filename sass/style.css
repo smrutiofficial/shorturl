@@ -48,6 +48,9 @@ body.dark {
   height: 20rem;
 }
 .details .con2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50%;
 }
 .details .con2 p:nth-child(1) {
@@ -130,7 +133,7 @@ a {
   display: flex;
   position: relative;
   flex-direction: row;
-  background: rgb(15, 6, 97);
+  background: rgb(123, 109, 255);
   border-radius: 0.5rem;
   color: aliceblue;
   padding: 1rem 2rem;
@@ -177,6 +180,9 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
   .details {
     display: flex;
     flex-direction: column;
@@ -201,17 +207,14 @@ a {
     font-size: 0.75rem;
     margin-right: 1.5rem;
   }
-  .details .con2 #btn {
-    transform: translateX(2.2rem);
+  .links {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
   }
-}
-.links {
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.links .box {
-  margin-bottom: 1rem;
-  width: 5.5rem;
+  .links .box {
+    margin-bottom: 1rem;
+    width: 5.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */

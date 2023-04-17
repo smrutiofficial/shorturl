@@ -48,6 +48,9 @@ body.dark{
         }
     }
     .con2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 50%;
         p:nth-child(1){
             font-weight: 600;
@@ -135,7 +138,7 @@ background: rgb(14, 168, 22);
     display: flex;
     position: relative;
     flex-direction: row;
-    background:  rgb(15, 6, 97);
+    background:  rgb(123, 109, 255);
     border-radius: 0.5rem;
     color: aliceblue;
     padding: 1rem 2rem;
@@ -193,6 +196,10 @@ background: rgb(14, 168, 22);
 }
 
 @media only screen and (max-width: 600px) {
+    // ----------------------------------------------
+    .header{
+        display: none;
+    }
     .details{
         display:flex;
         flex-direction: column;
@@ -228,29 +235,30 @@ background: rgb(14, 168, 22);
                
             }
             
-#btn{
-    transform: translateX(2.2rem);
+// #btn{
+//     transform: translateX(2.2rem);
 
-}               
+// }               
             
             
         }
     }
 
 
-}
-.links{
-    // border: red solid;
-    flex-direction:row;
-    // flex-basis: 100%;
-    justify-content: center;
-    // flex:2;
-    flex-wrap: wrap;
-  width: 100%;
-//   margin-left: 2rem;
-    .box{
-        margin-bottom:1rem ;
-        width: 5.5rem;
-
+    .links{
+        // border: red solid;
+        flex-direction:row;
+        // flex-basis: 100%;
+        justify-content: center;
+        // flex:2;
+        flex-wrap: wrap;
+      width: 100%;
+    //   margin-left: 2rem;
+        .box{
+            margin-bottom:1rem ;
+            width: 5.5rem;
+    
+        }
     }
+    // ----------------------------------------------
 }
