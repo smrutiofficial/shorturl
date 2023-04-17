@@ -187,12 +187,16 @@ a {
   }
   .details .con2 {
     width: 80%;
+    justify-content: center;
+    align-items: center;
   }
   .details .con2 p:nth-child(1) {
     width: 150%;
+    font-size: 1.5rem;
   }
   .details .con2 p:nth-child(2) {
-    width: 190%;
+    width: 110%;
+    font-size: 0.75rem;
   }
 }
 .links {
@@ -203,5 +207,5 @@ a {
 }
 .links .box {
   margin-bottom: 1rem;
-  width: 8rem;
+  width: 5rem;
 }/*# sourceMappingURL=style.css.map */

@@ -211,13 +211,19 @@ background: rgb(14, 168, 22);
         }
         .con2{
             width: 80%;
+            justify-content: center;
+            align-items: center;
             // border:red solid;
 
             p:nth-child(1){
                 width: 150%;
+                font-size: 1.5rem;
             }
             p:nth-child(2){
-                width: 190%;
+                width: 110%;
+                font-size: 0.75rem;
+
+
                
             }
             
@@ -236,7 +242,7 @@ background: rgb(14, 168, 22);
   margin-left: 2rem;
     .box{
         margin-bottom:1rem ;
-        width: 8rem;
+        width: 5rem;
 
     }
 }
