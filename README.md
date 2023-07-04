@@ -1,2 +1,2 @@
 # shorturl
-smrutishorturl.netlify.app
+https://smrutishorturl.netlify.app/
